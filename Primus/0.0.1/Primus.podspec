@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary               = "Primus is a simple abstraction around real-time frameworks. It allows you to easily switch between different frameworks without any code changes."
   s.homepage              = "https://github.com/seegno/primus-objc"
   s.author                = "Nuno Sousa"
-  s.license               = { :type => 'MIT', :file => 'LICENSE '}
+  s.license               = { :type => 'MIT', :file => 'LICENSE'}
   s.source                = { :git => 'https://github.com/seegno/primus-objc.git', :tag => "#{s.version}" }
   s.requires_arc          = true
   s.ios.deployment_target = '6.0'
